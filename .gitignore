@@ -1,9 +1,14 @@
 *.exe
 *.obj
+*.o
+*.out
+*.bin
+*.log
+
 $RECYCLE.BIN/
 System Volume Information/
+
 **/.vscode/
 **/.cph/
-*.bin
-*.o
-*.log
+
+tempCodeRunnerFile.cpp
