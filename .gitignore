@@ -1,0 +1,9 @@
+*.exe
+*.obj
+$RECYCLE.BIN/
+System Volume Information/
+**/.vscode/
+**/.cph/
+*.bin
+*.o
+*.log
