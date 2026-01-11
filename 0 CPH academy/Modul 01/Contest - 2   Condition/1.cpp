@@ -4,7 +4,16 @@ using namespace std;
 
 void solve()
 {
-    cout<<"assalamu alaikum";
+   int n;
+    cin>>n;
+    if(n==7)
+    {
+        cout<<"THALA"<<endl;
+
+    } 
+    else{
+        cout<<"SADGE"<<endl;
+    }
 }
        
 int main()
