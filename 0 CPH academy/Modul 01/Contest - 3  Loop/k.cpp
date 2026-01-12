@@ -4,26 +4,26 @@ using namespace std;
 
 void solve()
 {
-    int k, x, y, g = 0, m = 0, temp;
+    int k, x, y, glass = 0, mag = 0, temp;
     cin >> k >> x >> y;
     while (k--)
     {
-        if (g == x)
+        if (glass == x)
         {
-            g = 0;
+            glass = 0;
         }
-        else if (m == 0)
+        else if (mag == 0)
         {
-            m = y;
+            mag  = y;
         }
         else
         {
-            temp = min(x - g, m);
-            g += temp;
-            m -= temp;
+            temp = min(x - glass, mag);
+            glass += temp;
+            mag -= temp;
         }
     }
-    cout << g << " " << m << endl;
+    cout << glass << " " << mag << endl;
 }
 
 int main()
